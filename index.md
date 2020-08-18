@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# GT Sport API sobre nodeMCU (ESP8266 integrado)
 
-You can use the [editor on GitHub](https://github.com/dteso/GT_Sport_api_ESP8266/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## ¿Para qué sirve este repositorio?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Este repositorio ejemplifica como hacer trabajar un controlador nodeMCU como cliente https y visualizar los datos requeridos al servidor.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## ¿Qué conceptos o metodologías utiliza?
 
-```markdown
-Syntax highlighted code block
+- Conexión a red WiFi local mediante node MCU.
 
-# Header 1
-## Header 2
-### Header 3
+- LLamadas POST a través de la librería "WiFiClientSecureBearSSL" inlcuida en este repositorio. 
 
-- Bulleted
-- List
+- Ejemplo sencillo de traducción de respuestas http en formato JSON a variables procesables por el controlador.
 
-1. Numbered
-2. List
+- Visualización en display 128x32 Adafruit(R) OLED.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## ¿Qué necesito para poder utilizarlo?
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* Controlador NodeMCU - ESP8266
 
-### Jekyll Themes
+* Display OLED Adrafruit 128x32
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dteso/GT_Sport_api_ESP8266/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Arduino IDE o similar
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## ¿De qué otros repositorios se ayuda?
+
+Los endpoints han sido obtenidos del repositorio [https://github.com/alexpersian/gt7sp-api]alexpersian/gt7sp-api]
+
