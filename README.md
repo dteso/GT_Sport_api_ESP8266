@@ -1,2 +1,2 @@
 # GT_Sport_api_ESP8266
-Get real time game stats and shows them a 128x32 oled display. It works using requests to an https server and has been tested in a node MCU ESP8266
+Consigue en tiempo real tus puntuaciones de usuario, próximos eventos tanto en un display 128x32 controlado por nodeMCU como en un web server controlado por el ESP. Se hace el uso de llamadas HTTPS, comunicación serie con aplicación Ionic para configurar tus datos WiFi y de usuario
