@@ -1,0 +1,413 @@
+POST  /profile/
+https://www.gran-turismo.com/us/api/gt7sp/profile/?user_no=9953989&job=1
+Params: 
+	-user_no: 9953989
+	-job: 
+		1. ----------------------------------------------------
+		Response
+
+		{
+		    "profile": {
+		        "id": "D4V1D_T350",
+		        "status": "1",
+		        "number": "9953989",
+		        "country": "es"
+		    }
+		}
+		------------------------------------------------
+		3.
+		{
+		    "stats": {
+		        "user_no": "9953989",
+		        "manufacturer_id": "114",
+		        "stats": "{  \"achievement_arcade\": \"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300,300,0,0,0,0,0,0,0,0,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\",  \"achievement_history\": \"261,268,300,300,0,199,300,197,155,206,150,220,220,300,300,0,202,0,0,300\",  \"achievement_history_raw\": \"255968,27749066,669849,11949,0,19936670,138903,38914,29,12405070,4,8,22,504,21,0,32,0,0,191\",  \"buy_car_count\": 29,  \"campaign_progress\": \"37,0,3\",  \"car_count\": 213,  \"credit_earned\": 19936670,  \"delivery_reward_car_ticket\": 0,  \"level\": 38,  \"level_progress\": 63,  \"livery_count\": 32,  \"login_count\": 191,  \"mileage_earned\": 138903,  \"nickname\": \"D4V1D_T350\",  \"photo_count\": 0,  \"profile_color\": 6,  \"ride_car_id\": 3298,  \"total_running_meter\": 27749066,  \"xp\": 32057}",
+		        "ugc_all_count": "0",
+		        "ugc_photo_3_count": "0",
+		        "ugc_photo_11_count": "0",
+		        "ugc_livery_1_count": "0",
+		        "ugc_livery_2_count": "0",
+		        "ugc_livery_3_count": "0",
+		        "ugc_decal_count": "0",
+		        "ugc_replay_count": "0",
+		        "comment": "",
+		        "driver_class": "3",
+		        "driver_point": "5533",
+		        "manner_point": "10",
+		        "race_count": "508",
+		        "driver_point_up_rate": "26",
+		        "driver_photo_id": "6918122833272112140-0",
+		        "follower_count": "3"
+		    }
+		}
+		12.------------------------------------------------------------------------------------
+		{
+		    "status": 400,
+		    "result": -92
+		}
+		13.--------------------------------------------------------------------------------------
+		{
+		    "sport_stats": [
+		        {
+		            "index": "1",
+		            "race": "612",
+		            "win": "21",
+		            "top5": "210",
+		            "pole_position": "8",
+		            "rank_qualify": "5366",
+		            "rank_final": "5235",
+		            "rank_change": "-131",
+		            "lap": "2453",
+		            "lead_lap": "87",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4010",
+		            "race": "18",
+		            "win": "0",
+		            "top5": "10",
+		            "pole_position": "1",
+		            "rank_qualify": "135",
+		            "rank_final": "139",
+		            "rank_change": "4",
+		            "lap": "50",
+		            "lead_lap": "3",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4016",
+		            "race": "11",
+		            "win": "0",
+		            "top5": "2",
+		            "pole_position": "0",
+		            "rank_qualify": "142",
+		            "rank_final": "147",
+		            "rank_change": "5",
+		            "lap": "75",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4041",
+		            "race": "13",
+		            "win": "0",
+		            "top5": "2",
+		            "pole_position": "0",
+		            "rank_qualify": "166",
+		            "rank_final": "150",
+		            "rank_change": "-16",
+		            "lap": "68",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4116",
+		            "race": "60",
+		            "win": "1",
+		            "top5": "17",
+		            "pole_position": "2",
+		            "rank_qualify": "425",
+		            "rank_final": "478",
+		            "rank_change": "53",
+		            "lap": "156",
+		            "lead_lap": "4",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4119",
+		            "race": "29",
+		            "win": "0",
+		            "top5": "9",
+		            "pole_position": "0",
+		            "rank_qualify": "250",
+		            "rank_final": "212",
+		            "rank_change": "-38",
+		            "lap": "107",
+		            "lead_lap": "1",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4122",
+		            "race": "11",
+		            "win": "0",
+		            "top5": "4",
+		            "pole_position": "0",
+		            "rank_qualify": "125",
+		            "rank_final": "76",
+		            "rank_change": "-49",
+		            "lap": "50",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4152",
+		            "race": "45",
+		            "win": "2",
+		            "top5": "14",
+		            "pole_position": "0",
+		            "rank_qualify": "364",
+		            "rank_final": "413",
+		            "rank_change": "49",
+		            "lap": "181",
+		            "lead_lap": "10",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4349",
+		            "race": "52",
+		            "win": "5",
+		            "top5": "28",
+		            "pole_position": "2",
+		            "rank_qualify": "372",
+		            "rank_final": "335",
+		            "rank_change": "-37",
+		            "lap": "194",
+		            "lead_lap": "16",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4363",
+		            "race": "53",
+		            "win": "0",
+		            "top5": "23",
+		            "pole_position": "0",
+		            "rank_qualify": "534",
+		            "rank_final": "383",
+		            "rank_change": "-151",
+		            "lap": "200",
+		            "lead_lap": "1",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4365",
+		            "race": "1",
+		            "win": "0",
+		            "top5": "0",
+		            "pole_position": "0",
+		            "rank_qualify": "14",
+		            "rank_final": "12",
+		            "rank_change": "-2",
+		            "lap": "3",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4376",
+		            "race": "27",
+		            "win": "1",
+		            "top5": "9",
+		            "pole_position": "1",
+		            "rank_qualify": "188",
+		            "rank_final": "203",
+		            "rank_change": "15",
+		            "lap": "92",
+		            "lead_lap": "2",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4462",
+		            "race": "34",
+		            "win": "0",
+		            "top5": "13",
+		            "pole_position": "0",
+		            "rank_qualify": "261",
+		            "rank_final": "284",
+		            "rank_change": "23",
+		            "lap": "126",
+		            "lead_lap": "1",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4469",
+		            "race": "17",
+		            "win": "0",
+		            "top5": "1",
+		            "pole_position": "0",
+		            "rank_qualify": "219",
+		            "rank_final": "227",
+		            "rank_change": "8",
+		            "lap": "55",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4470",
+		            "race": "42",
+		            "win": "0",
+		            "top5": "16",
+		            "pole_position": "0",
+		            "rank_qualify": "406",
+		            "rank_final": "323",
+		            "rank_change": "-83",
+		            "lap": "162",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4471",
+		            "race": "19",
+		            "win": "0",
+		            "top5": "3",
+		            "pole_position": "0",
+		            "rank_qualify": "172",
+		            "rank_final": "164",
+		            "rank_change": "-8",
+		            "lap": "126",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4601",
+		            "race": "6",
+		            "win": "0",
+		            "top5": "2",
+		            "pole_position": "0",
+		            "rank_qualify": "77",
+		            "rank_final": "53",
+		            "rank_change": "-24",
+		            "lap": "59",
+		            "lead_lap": "2",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4602",
+		            "race": "30",
+		            "win": "2",
+		            "top5": "7",
+		            "pole_position": "0",
+		            "rank_qualify": "271",
+		            "rank_final": "297",
+		            "rank_change": "26",
+		            "lap": "74",
+		            "lead_lap": "8",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4776",
+		            "race": "9",
+		            "win": "1",
+		            "top5": "4",
+		            "pole_position": "0",
+		            "rank_qualify": "83",
+		            "rank_final": "75",
+		            "rank_change": "-8",
+		            "lap": "56",
+		            "lead_lap": "7",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4841",
+		            "race": "28",
+		            "win": "2",
+		            "top5": "8",
+		            "pole_position": "1",
+		            "rank_qualify": "230",
+		            "rank_final": "287",
+		            "rank_change": "57",
+		            "lap": "143",
+		            "lead_lap": "5",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4847",
+		            "race": "52",
+		            "win": "4",
+		            "top5": "20",
+		            "pole_position": "1",
+		            "rank_qualify": "423",
+		            "rank_final": "427",
+		            "rank_change": "4",
+		            "lap": "219",
+		            "lead_lap": "20",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4853",
+		            "race": "8",
+		            "win": "0",
+		            "top5": "2",
+		            "pole_position": "0",
+		            "rank_qualify": "73",
+		            "rank_final": "86",
+		            "rank_change": "13",
+		            "lap": "71",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4874",
+		            "race": "5",
+		            "win": "0",
+		            "top5": "2",
+		            "pole_position": "0",
+		            "rank_qualify": "45",
+		            "rank_final": "59",
+		            "rank_change": "14",
+		            "lap": "29",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4896",
+		            "race": "41",
+		            "win": "3",
+		            "top5": "14",
+		            "pole_position": "0",
+		            "rank_qualify": "375",
+		            "rank_final": "386",
+		            "rank_change": "11",
+		            "lap": "157",
+		            "lead_lap": "7",
+		            "top_match": "0"
+		        },
+		        {
+		            "index": "4921",
+		            "race": "1",
+		            "win": "0",
+		            "top5": "0",
+		            "pole_position": "0",
+		            "rank_qualify": "16",
+		            "rank_final": "19",
+		            "rank_change": "3",
+		            "lap": "0",
+		            "lead_lap": "0",
+		            "top_match": "0"
+		        }
+		    ]
+		}
+		15.-------------------------------------------------------------------------------------------
+		{
+    		"status": 400
+		}
+
+
+
+
+POST /event/
+
+>Event Detail (job=1)
+https://www.gran-turismo.com/us/api/gt7sp/event/?job=1&event_id_csv=45693
+
+job: 1
+event_ide_csv: 45693 id del evento [ REQUERIDA ] coómo se obitiene la id del evento???
+
+--------------------------------------------------------------------------------------------------------------
+>Session Info (job=10)
+https://www.gran-turismo.com/us/api/gt7sp/event/?job=10
+
+--------------------------------------------------------------------------------------------------------------
+> Event Calendar (job=2=)
+https://www.gran-turismo.com/us/api/gt7sp/event/?job=2&channel_id_csv=11&begin_date=xxxxxxx&end_date=yyyyyyyyyy
+
+	required:
+		channel_id_csv, begin_date, end_date ---> Habría que comprobar el formato que deben tener los date
+
+--------------------------------------------------------------------------------------------------------------
+> Event Calendar Daiyly o Series Reaces ( job = 3 )
+https://www.gran-turismo.com/us/api/gt7sp/event/?job=3&channel_id_csv=1
+
+channel_id_csv:
+	11 : Nations
+	12 : Manufacturers
+	1 : Daily Race A
+	2 : Daily Race B
+	3 : Daily Race C
